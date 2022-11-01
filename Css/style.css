@@ -1,0 +1,96 @@
+/**********Import Fronts**********/
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swswap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Shadows+Into+Light+Two&display=swap');
+/**********Selector Tag**********/
+body{
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5.25rem;
+  color: #66BFBF;
+  margin-top: 30px;
+}
+p{
+  font-family: 'Patua One', cursive;
+  font-weight: normal;
+}
+h2{
+  font-size: 2.5rem;
+  font-family: Tahoma, Verdana, sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  color: #11999E;
+}
+hr{
+  margin: 50px auto;
+  border-style: dotted;
+  border-width: 5px;
+  border-bottom: none;
+  border-color: #EAF6F6;
+  width: 50px;
+}
+a{
+  color: #11999E;
+  font-family: Copperplate, Papyrus, fantasy;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+/**********Selector Id**********/
+#heading{
+  background-color: #D6EFED;
+  padding-top: 8px;
+  position: relative;
+}
+/**********Selector Class**********/
+.top-cloud{
+  width: 500px;
+  height: 200px;
+}
+.bottom-cloud{
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  right: 700px;
+  bottom: 54%;
+}
+.mountain{
+  width: 100%;
+  height: 400px;
+  margin-top: 200px;
+}
+.profile-img{
+  width: 100px;
+  height: 95px;
+  border-radius: 100%;
+}
+.html,.css{
+  width: 90px;
+  height: 80px;
+  border-radius: 100%;
+  float: left;
+}
+.skill-row{
+  width: 350px;
+  margin: auto 450px;
+  text-align: left;
+  line-height: 2;
+}
+.middle-container{
+  padding-top: 10px;
+}
+.bottom-div{
+  margin-top: 30px;
+  background-color: #66BFBF;
+  padding: 10px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.65rem;
+}
