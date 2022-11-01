@@ -1,0 +1,38 @@
+body{
+  background-color: gray;
+}
+h3,h4{
+  text-align: center;
+}
+h4{
+  color: #b04343;
+}
+.container{
+  width: 50%;
+  margin: 70px auto;
+}
+.div--1{
+  background-color: #7d9d7f;
+  width: 48%;
+  display: inline-block;
+  border-radius: 3px;
+  margin: 0;
+}
+.div--2{
+  background-color: #5fa991;
+  width: 48%;
+  display: inline-block;
+  border-radius: 3px;
+  margin: 0;
+}
+.current--1, .current--2{
+  background-color: #e26969;
+  display: inline-block;
+  margin-left: 35%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+.em,i{
+  color: #e0e0e0;
+}
